@@ -96,7 +96,7 @@ object PrintableApp extends App {
     cat1.color === cat2.color
   }
 
-  val garfield = Cat("Garfield", 38, "orange and black")
+  val garfield   = Cat("Garfield", 38, "orange and black")
   val heathcliff = Cat("Heathcliff", 32, "orange and black")
 
   println(garfield =!= heathcliff)
